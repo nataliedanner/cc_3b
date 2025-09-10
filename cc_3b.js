@@ -22,3 +22,12 @@ inventory = [
 ]
 
 inventory.forEach(obj => console.log(`Name: ${obj.name}`));
+
+newObject = {
+    sku: "sku-005",
+    name: "Lemonade",
+    price: 5,
+    stock: 10,
+}
+
+inventory.push(newObject)
